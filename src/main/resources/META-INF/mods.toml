@@ -1,0 +1,22 @@
+﻿modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+[[mods]]
+modId="zhzl"
+version="1.0"
+displayName="终焉：上帝控制台"
+description='''
+包含一把乱码神剑，以及一个能封杀任何物品的上帝面板。
+'''
+[[dependencies.zhzl]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.zhzl]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
