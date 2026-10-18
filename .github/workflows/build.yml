@@ -20,6 +20,11 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
+    # 【核心修复】自动去除所有 Java 文件开头的 BOM 隐藏字符，解决 Linux 报错
+    - name: Remove UTF-8 BOM from Java files
+      run: |
+        find . -name "*.java" -exec sed -i '1s/^\xEF\xBB\xBF//' {} \;
+
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
