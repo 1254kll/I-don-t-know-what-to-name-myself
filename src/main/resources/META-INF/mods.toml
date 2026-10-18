@@ -4,9 +4,9 @@ license="All rights reserved"
 [[mods]]
 modId="zhzl"
 version="1.0"
-displayName="终焉：上帝控制台"
+displayName="我都不知道该怎么称呼自己"
 description='''
-包含一把乱码神剑，以及一个能封杀任何物品的上帝面板。
+n
 '''
 [[dependencies.zhzl]]
     modId="forge"
