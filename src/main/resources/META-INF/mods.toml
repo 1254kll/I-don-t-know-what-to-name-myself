@@ -1,19 +1,22 @@
-﻿modLoader="javafml"
+modLoader="javafml"
 loaderVersion="[47,)"
 license="All rights reserved"
+
 [[mods]]
 modId="zhzl"
 version="1.0"
 displayName="I-don-t-know-what-to-name-myself"
 description='''
-00nnnkjadneiwndc。
+God Console
 '''
+
 [[dependencies.zhzl]]
     modId="forge"
     mandatory=true
     versionRange="[47,)"
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.zhzl]]
     modId="minecraft"
     mandatory=true
